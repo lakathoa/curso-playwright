@@ -25,7 +25,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: false, //para que se vea o no el browser cuando ejecuta los test false muestra el br y true no lo muestra
+    headless: true, //para que se vea o no el browser cuando ejecuta los test false muestra el br y true no lo muestra
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
